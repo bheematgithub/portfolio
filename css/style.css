@@ -1,0 +1,55 @@
+body {
+  padding-top: 10vh;
+  padding-bottom: 0%;
+}
+
+.navbar {
+  min-height: 10vh;
+  transition: background-color 0.3s ease;
+}
+
+#home{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#home h2{
+  color: #ffffff;
+}
+
+.fname{
+  font-size: 5rem;
+  color: #ffffff;
+  font-weight: 500;
+  border-bottom: 2px solid #fff;
+}
+.lname{
+    font-size: 5rem;
+  color: #f55839;
+  font-weight: 500;
+}
+
+.fullscreen-bg {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.8)), url('../assets/home.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer{
+  margin: 0;
+  padding: 10px;
+  background-color: #bfbfbf;  
+}
+
+::-webkit-scrollbar-track{
+  width: 0.25rem;
+}
+
